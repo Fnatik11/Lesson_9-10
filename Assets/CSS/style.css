@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100;1,400&display=swap');
+body{font-family: 'Montserrat', sans-serif;
+background-color: white;
+font-size: 14px;
+color: grey;}
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+li{list-style-type: none;}
+h1{color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: 48px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 2px;
+text-transform: uppercase;}
+a{ text-decoration: none;}
+.container{width: 100%;
+max-width: 1100px;
+padding: 0 15px;
+margin: 0 auto;}
+.header{width: 100%;
+height: 100vh;
+background: url("../Img/Layer\ 10@1X.png") center center no-repeat;
+background-size: cover;}
+.header-inner{width: 100%;}
+.header-top{width: 100%;
+height: 10vh;
+flex-wrap: wrap;
+display: flex;
+justify-content: space-between;
+align-items: center ;}
+.header-logo > a{color: #FFFFFF;
+font-size: 24px;
+font-weight: 700;}
+.header-nav-list{display: flex;}
+.header-nav-item > a{color:#FFFFFF;}
+.header-nav-item{margin: 0 15px;}
+.header-intro{display: flex;
+width: 100%;
+height: 90vh;
+flex-direction: column ;
+justify-content: center;
+align-items: center;}
+.header-intro > p {font-size: 20px ;
+color:#FFFFFF ;
+margin: 30px 0;
+font-family: 'Roboto Slab', serif;
+text-align: center;}
+.btm{display: block;
+width: 180px;
+padding: 20px 0;
+margin: 20px 0;
+border: 2px solid #FFFFFF ;
+text-align: center;
+color: #FFFFFF;
+text-transform:uppercase ;}
+.main-inner{width: 100%;
+padding: 0 0 40px 0 ;}
+.main-intro{margin-top: 180px ;
+text-align: center;
+font-family: 'Roboto Slab', serif;}
+.main-intro-line{width: 50px;
+height: 3px;
+background-color: #555555;
+margin: 30px auto;}
+.main-cards{display : flex;
+flex-wrap: wrap;
+justify-content:space-between;
+align-items: center;
+padding: 70px 0  0 0 ;}
+.main-card{width: 33.3333333%;
+display: flex;
+transition: background 1s;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0 20px 20px  0 ;}
+.card-img{width: 90px;
+height: 90px;
+border:2px solid lightgrey;
+border-radius:100% ;
+display: flex;
+justify-content: center;
+align-items: center;}
+ .main-intro>p{text-align: center;
+font-size: 16px; }
+ .card-img>i{color: #C0301C;
+font-size: 43px; }
+ .main-card:hover>.card-img{background-color:#C0301C ;}
+ .main-card:hover>.card-img>i{color :#FFFFFF;}
+ .main-card>h3{text-transform: uppercase;
+margin: 30px 0 ;}
+ .main-card>p{text-align: center;
+font-family: 'Roboto Slab', serif;}
+ .footer{width: 100%;
+background-color:#C0301C ;}
+ .footer-inner{width: 100%;
+padding: 100px 0 ;}
+ .footer-social{width: 185px;
+height: 40px;
+display: flex;  
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;}
+.social-icon{width: 35px;
+height: 35px;
+border:2px solid #FFFFFF;
+border-radius:100% ;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: background .3s;}
+.social-icon>i{color: #FFFFFF;}
+.social-icon:hover{background-color: #FFFFFF;
+color: blue;}
+.social-icon:hover>i{color:#C0301C;}
+.footer-inner>p{text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+padding-top: 60px;}
+a{color: #FFFFFF;}
+@media screen and(max-width:576px){
+.header-top{justify-content: center;}
+.header-nav{display: none;}
+.main-cards{justify-content: center;}}
+.header-nav-item:hover{font-size:16px;
+color:lightslategrey;
+-webkit-box-shadow: 21px 16px 13px 0px rgba(34, 60, 80, 0.18);
+-moz-box-shadow: 21px 16px 13px 0px rgba(34, 60, 80, 0.18);
+box-shadow: 21px 16px 13px 0px rgba(34, 60, 80, 0.18);}
+.btm:hover{font-size: larger;
+border: 3px solid #FFFFFF ;
+-webkit-box-shadow: -8px 13px 100px 2px rgba(103, 103, 103, 0.51);
+-moz-box-shadow: -8px 13px 100px 2px rgba(103, 103, 103, 0.51);
+box-shadow: -8px 13px 100px 2px rgba(103, 103, 103, 0.51);
+background: -webkit-linear-gradient(90deg, rgb(253, 149, 9) 27%, rgb(218, 255, 0) 100%);
+background: -moz-linear-gradient(90deg, rgb(253, 149, 9) 27%, rgb(218, 255, 0) 100%);
+background: linear-gradient(90deg, rgb(253, 149, 9) 27%, rgb(218, 255, 0) 100%);}
+ 
